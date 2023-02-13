@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #define numbers_bluetooth 1
 #define special_letters 2
-
 / {
         keymap {
                 compatible = "zmk,keymap";
