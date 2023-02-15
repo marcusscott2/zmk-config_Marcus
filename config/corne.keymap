@@ -80,14 +80,5 @@
                              &kp LGUI    &trans  &kp SPACE    &kp RET     &trans         &kp RALT
             >;
         };
-
-        test_layer {
-            bindings = <
-&kp SPACE  &kp LS(B)  &blah_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-   &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-   &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
