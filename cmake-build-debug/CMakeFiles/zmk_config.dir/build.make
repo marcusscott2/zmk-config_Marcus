@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yates/Desktop/keyboard/zmk-config
+CMAKE_SOURCE_DIR = /Users/yates/Desktop/Keyboard/zmk-config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zmk_config.dir/depend.make
@@ -74,6 +74,6 @@ CMakeFiles/zmk_config.dir/clean:
 .PHONY : CMakeFiles/zmk_config.dir/clean
 
 CMakeFiles/zmk_config.dir/depend:
-	cd /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yates/Desktop/keyboard/zmk-config /Users/yates/Desktop/keyboard/zmk-config /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug/CMakeFiles/zmk_config.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yates/Desktop/Keyboard/zmk-config /Users/yates/Desktop/Keyboard/zmk-config /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug/CMakeFiles/zmk_config.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zmk_config.dir/depend
 

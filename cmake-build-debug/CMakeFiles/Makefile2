@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yates/Desktop/keyboard/zmk-config
+CMAKE_SOURCE_DIR = /Users/yates/Desktop/Keyboard/zmk-config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/zmk_config.dir/clean
 CMakeFiles/zmk_config.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmk_config.dir/build.make CMakeFiles/zmk_config.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmk_config.dir/build.make CMakeFiles/zmk_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug/CMakeFiles --progress-num= "Built target zmk_config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug/CMakeFiles --progress-num= "Built target zmk_config"
 .PHONY : CMakeFiles/zmk_config.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zmk_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zmk_config.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yates/Desktop/keyboard/zmk-config/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yates/Desktop/Keyboard/zmk-config/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/zmk_config.dir/rule
 
 # Convenience name for target.
