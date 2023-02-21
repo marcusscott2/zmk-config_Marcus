@@ -45,9 +45,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-       &kp TAB      &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
-        &trans            &trans            &trans        &trans        &trans        &trans        &trans     &kp EQUAL       &kp LBKT      &kp RBKT      &kp BSLH  &kp GRAVE
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT        &trans        &trans        &trans      &kp PLUS       &kp LBRC      &kp RBRC      &kp PIPE  &kp TILDE
+       &kp TAB      &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0       &kp MINUS
+        &trans            &trans            &trans        &trans        &trans        &trans     &kp TILDE     &kp EQUAL       &kp LBKT      &kp RBKT      &kp BSLH       &kp GRAVE
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT        &trans        &trans        &trans      &kp PLUS       &kp LBRC      &kp RBRC      &kp PIPE  &kp LEFT_SHIFT
                                                         &kp LGUI        &trans     &kp SPACE       &kp RET        &trans  &kp BACKSPACE
             >;
         };
