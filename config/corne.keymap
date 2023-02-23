@@ -16,8 +16,6 @@
         compatible = "zmk,combos";
     };
 
-    macros {
-    };
 
     keymap {
         compatible = "zmk,keymap";
