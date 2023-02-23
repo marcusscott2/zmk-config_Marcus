@@ -29,10 +29,13 @@
                 <&macro_release>,
                 <&kp LEFT_COMMAND>,
                 <&macro_release>,
-                <&kp SPACE>;
+                <&kp I &kp T &kp E &kp M>,
+                <&macro_tap>,
+                <&kp ENTER &kp O &kp P &kp E &kp N &kp SPACE &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp W &kp W &kp W &kp DOT &kp P &kp I &kp V &kp O &kp T &kp A &kp L &kp T &kp R &kp A &kp C &kp K &kp E &kp R &kp DOT &kp C &kp O &kp M &kp FSLH &kp D &kp A &kp S &kp H &kp B &kp O &kp A &kp R &kp D>,
+                <&macro_tap>,
+                <&kp ENTER>;
         };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
