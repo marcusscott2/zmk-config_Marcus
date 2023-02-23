@@ -17,28 +17,6 @@
     };
 
     macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_COMMAND>,
-                <&macro_press>,
-                <&kp SPACE>,
-                <&macro_release>,
-                <&kp LEFT_COMMAND &kp SPACE>,
-                <&macro_release>,
-                <&macro_wait_time 200>,
-                <&kp I &kp T &kp E &kp R &kp M>,
-                <&macro_tap>,
-                <&kp ENTER>,
-                <&macro_tap>,
-                <&kp O &kp P &kp E &kp N &kp SPACE &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp W &kp W &kp W &kp DOT &kp P &kp I &kp V &kp O &kp T &kp A &kp L &kp T &kp R &kp A &kp C &kp K &kp E &kp R &kp DOT &kp C &kp O &kp M &kp FSLH &kp D &kp A &kp S &kp H &kp B &kp O &kp A &kp R &kp D>,
-                <&macro_tap>,
-                <&kp ENTER>,
-                <&macro_wait_time>;
-        };
     };
 
     keymap {
